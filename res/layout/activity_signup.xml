@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        >
+
+        <TextView
+            android:id="@+id/signup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/ssangmundong"
+            android:text="Sign Up"
+            android:textColor="#000"
+            android:textSize="40sp"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/singup"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="User ID(Email)"
+        android:fontFamily="@font/unigothic"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/unigothic"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/yellowMain"
+        />
+
+
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/unigothic"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="@font/unigothic"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/yellowMain"
+        />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:fontFamily="@font/unigothic"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/fn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:fontFamily="@font/unigothic"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/yellowMain"
+        />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:fontFamily="@font/unigothic"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/bd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="date"
+        android:fontFamily="@font/unigothic"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/yellowMain"
+        />
+
+
+
+    <Button
+        android:id="@+id/signupbt"
+        android:background="@drawable/square_yellow_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/sign_up"
+        android:fontFamily="@font/wiggle"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

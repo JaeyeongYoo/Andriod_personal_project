@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout_write"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/yellow_header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="서평 읽기"
+            android:fontFamily="@font/ssangmundong"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/pencil"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/read_title"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="제목"
+            android:fontFamily="@font/unigothic"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="bottom"
+            android:backgroundTint="@color/yellowMain"
+            android:layout_gravity="bottom"/>
+
+
+        <TextView
+            android:id="@+id/read_moviename"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="영화 종류"
+            android:fontFamily="@font/unigothic"
+            android:textSize="20sp"
+            android:textAlignment="viewEnd"
+            android:gravity="bottom"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/yellow_post"
+        >
+
+        <TextView
+            android:id="@+id/read_post"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:fontFamily="@font/unigothic"
+            android:gravity="top|left"
+            android:textSize="15sp"
+            android:lineSpacingExtra="2dp"
+            android:scrollbars="vertical"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/read_writer"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="작성자"
+        android:fontFamily="@font/unigothic"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/unigothic"
+        android:text="태그"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/read_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TAG"
+        android:fontFamily="@font/unigothic"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

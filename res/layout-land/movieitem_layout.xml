@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_gravity="center_horizontal">
+
+
+    <ImageView
+        android:id="@+id/posterimg_tv"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/moviename_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Movie Name"
+        android:fontFamily="@font/unigothic"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/director_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Director"
+        android:fontFamily="@font/unigothic"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/unigothic"
+        android:text="개봉일"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

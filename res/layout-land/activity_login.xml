@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/movie"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/ssangmundong"
+            android:text="@string/moviediary"
+            android:textColor="#000"
+            android:textSize="50sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp">
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="E-mail"
+                android:fontFamily="@font/womanflower"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/womanflower"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:fontFamily="@font/womanflower"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <EditText
+                android:id="@+id/pw"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:fontFamily="@font/womanflower"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="계정이 없으신가요?"
+                    android:fontFamily="@font/womanflower"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:id="@+id/signup"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_up"
+                    android:fontFamily="@font/wiggle"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:gravity="right"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:background="@drawable/square_yellow_button"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:text="@string/login"
+                android:fontFamily="@font/wiggle"
+                android:textSize="25sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <com.kakao.usermgmt.LoginButton
+                android:id="@+id/kakao_login_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PersonalProject</string>
+    <string name="login">Login</string>
+    <string name="sign_up">sign up</string>
+    <string name="password">password</string>
+    <string name="moviediary">영화일기</string>
+    <string name="noaccount">계정이 없으신가요?</string>
+    <string name="main">Main</string>
+    <string name="post">Post</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

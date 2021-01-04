@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainPageActivity"
+    android:gravity="center_horizontal"
+    android:scrollbars="vertical">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Movie"
+            android:fontFamily="@font/wiggle"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/scrollview_list_movie"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:scrollbars="horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="공지 사항"
+            android:fontFamily="@font/wiggle"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"/>
+
+        <ListView
+            android:id="@+id/announceList"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
